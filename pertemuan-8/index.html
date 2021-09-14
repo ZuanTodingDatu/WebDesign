@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Formulir calon Pegawai</legend>
+        <label for="name">Nama: </label>
+        <input type="text" name="name" /><br>
+        <label for="address">Alamat: </label>
+        <input type="text" name="address" /><br>
+        <label for="pw">Password:</label>
+		<input id="pw" name="pw" type="password" required minlength="8" maxlength="15"><br>
+        <label for="Jenis Kelamin">Jenis Kelamin:</label>
+            <input type="radio" name="Jenis Kelamin" id="Laki-Laki" value="Laki-laki">
+            <label for="Laki-Laki">Laki-Laki</label>
+            <input type="radio" name="Jenis Kelamin" id="Perempuan" value="Perempuan">
+            <label for="Perempuan">perempuan</label><br>
+        <label for="Bahasa Pemograman Yang Dikuasai">Bahasa Pemograman Yang Dikuasai:</label>
+            <input type="checkbox" name="Bahasa Pemograman Yang Dikuasai" id="Web" value="web">
+            <label for="Web">Web</label>
+            <input type="checkbox" name="Bahasa Pemograman Yang Dikuasai" id="MOBILE" value="MOBILE">
+            <label for="MOBILE">MOBILE</label>
+            <input type="checkbox" name="Bahasa Pemograman Yang Dikuasai" id="DESKTOP" value="DESKTOP">
+            <label for="DESKTOP">DESKTOP
+        </label>
+        <select>
+            <option value="Jakarta">Jakarta</option>
+            <option value="Surabaya">Surabaya</option>
+            <option value="Bandung">Bandung</option>
+        </select>
+        <section class="extra-info">
+            <label for="extra">Apa Yang Membuat Kami harus memilih Anda?:</label>
+            <br>
+            <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+        </section>
+        <section class="submission">
+            <input type="submit" value="Proses">
+        </section>
+        </fieldset>
+     
+      
+</body>
+</html>
